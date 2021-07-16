@@ -1,5 +1,5 @@
 class PrototypesController < ApplicationController
-  before_action :authenticate_user!, only: [:create, :destroy, :new]
+  before_action :authenticate_user!, only: [:create, :destroy, :new, :edit]
   before_action :move_to_index, except: [:index, :show, :create, :new]
 
 
